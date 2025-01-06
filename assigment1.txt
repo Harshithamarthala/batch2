@@ -1,0 +1,77 @@
+Day 2
+Assigment 1
+
+Q: Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+Ans:
+DATATYPE : A data type specifies the kind of data that can be stored and determines the type of value a variable can hold.
+ 
+data  types are of 2 types :
+1. primitive datatype.
+2. Non primitive datatype.
+
+PRIMITIVE DATATYPE :
+-it is immutable(once created and doesn't change).
+-can store single value.
+-primitive datatypes in javascript are String, boolean, number, undefined, null big int, simple.
+
+NON-PRIMITIVE DATATYPE :
+-it is mutable(once created and can be changed).
+-can store multiple value.
+-non-primitive datatypes in javascript are class, object, function, array, math, date, json.
+
+1. String:
+-it is a sequence of character that sotred within double quotes/single quotes/backtick(template literals).
+
+ex: 
+let str1="double quotes";
+console.log(str1 , typeof(str1)); //double quotes string
+
+let str2='single quotes';
+console.log(str2 , typeof(str2)); //single quotes string
+
+let str3=`template literals`;
+console.log(str3 , typeof(str3)); //template literals string
+
+2.Boolean :
+-true/false
+-basically used in condtional statements like if, if else, elif and in decision making statements.
+
+ex :
+let bool1=true;
+console.log(bool1, typeof(bool1)); //true 'boolean'
+
+
+let bool2=false;
+console.log(bool2, typeof(bool2)); //false 'boolean'
+
+3.Number :
+-it can be a int, float, decimal, exponential.
+-stores in  the range of -2^23-1 to +2^23-1.
+
+ex :
+let num1=10;
+console.log(num1,typeof(num1)); //10 'number'
+
+let num2=10.2345;
+console.log(num2,typeof(num2)); //10.2345 'number'
+
+let num3=10e3;
+console.log(num3,typeof(num3)); //10000 'number'
+
+4.undefined :
+-in this variable is declared but not intialized.
+-no intialization
+
+ex :
+let h;
+console.log(h, typeof(h)); //undefined 'undefined'
+
+5.Null :
+-it is a absence of object/empty space.
+-even it is a null but if we check the typeof if it it will give the output as object.
+-return value of null is object.
+
+ex :
+let x=null;
+console.log(x, typeof(x)); //null 'object'
