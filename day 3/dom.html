@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
+<style>
+    #demo{
+        color: red;
+    }
+</style>
 <body>
     <!-- <div class="test">division1</div>
     <div class="test">division2</div>
@@ -14,13 +18,37 @@
     <div class="test">division4</div>
     <div class="test">division5</div> -->
 
-    <h1 id="demo">Header</h1>
+    <!-- <h1 id="demo">Header</h1>
 
     <div class="test">division01</div>
     <div class="test">division02</div>
     <div class="test">division03</div>
     <div class="test">division04</div>
-    <div class="test">division05</div>
+    <div class="test">division05</div> -->
+
+    <!-- <div class="bgColor">red</div>
+    <div class="bgColor">green</div>
+    <div class="bgColor">blue</div>
+    <div class="bgColor">teal</div>
+    <div class="bgColor">yellow</div> -->
+
+    <form>
+        <div class="formgroup">
+            <label for="uName">Username : </label>
+            <input type="text" id="uName" placeholder="enter username">
+        </div>
+        <div class="formgroup">
+            <label for="uPass">Password : </label>
+            <input type="password" id="uPass" placeholder="enter password">
+        </div>
+        <div class="formgroup">
+            <label for="">Gender : </label>
+            <input type="radio" name="gender" value="male"><span>Male</span>
+            <input type="radio" name="gender" value="female"><span>Female</span>
+            <input type="radio" name="gender" value="others"><span>Others</span>
+        </div>
+        <input type="submit">
+       </form>
 
 
     <script src="./dom.js"></script>
