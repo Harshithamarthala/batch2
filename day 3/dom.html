@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<style>
-    #demo{
+<!-- <style>
+    #demo {
         color: red;
     }
-</style>
+</style> -->
+
 <body>
     <!-- <div class="test">division1</div>
     <div class="test">division2</div>
@@ -32,7 +33,7 @@
     <div class="bgColor">teal</div>
     <div class="bgColor">yellow</div> -->
 
-    <form>
+    <!-- <form>
         <div class="formgroup">
             <label for="uName">Username : </label>
             <input type="text" id="uName" placeholder="enter username">
@@ -50,10 +51,78 @@
             <input type="radio" name="gender" value="others"><span>Others</span>
         </div>
         <input type="submit">
-       </form>
+       </form> -->
+
+    <table border="2" cellpadding="10px" cellspacing="0px">
+        <thead>
+            <tr>
+
+                <th>sl.no</th>
+                <th>name</th>
+                <th>company</th>
+                <th>slary</th>
+                <th>city</th>
+                <th>area</th>
+            </tr>
+        </thead>
+        <tbody id="store"></tbody>
+    </table>
 
 
-    <script src="./dom.js"></script>
+    <script>
+        let employes = [
+            {
+                id: "1",
+                name: "harshi",
+                company: "google",
+                salary: "30K",
+                address: {
+                    city: "Hyderabad",
+                    area: "sursram",
+                }
+            },
+            {
+                id: "2",
+                name: "yashu",
+                company: "google",
+                salary: "30K",
+                address: {
+                    city: "Hyderabad",
+                    area: "bahadurpally",
+                }
+            },
+            {
+                id: "3",
+                name: "bindu",
+                company: "amazon",
+                salary: "20K",
+                address: {
+                    city: "Hyderabad",
+                    area: "warangal",
+                }
+            },
+            {
+                id: "4",
+                name: "deekshu",
+                company: "amazon",
+                salary: "20K",
+                address: {
+                    city: "Hyderabad",
+                    area: "bahadurpally",
+                }
+            },
+            {
+                id: "5",
+                name: "pinky",
+                company: "amazon",
+                salary: "20K",
+                address: {
+                    city: "Hyderabad",
+                    area: "bharath nagar",
+                }
+            },
+        ]
+    </script>
 </body>
 
 </html>
