@@ -60,7 +60,7 @@
                 <th>sl.no</th>
                 <th>name</th>
                 <th>company</th>
-                <th>slary</th>
+                <th>salary</th>
                 <th>city</th>
                 <th>area</th>
             </tr>
@@ -122,7 +122,27 @@
                 }
             },
         ]
+
+        employes.map(Element =>{
+    let table = document.getElementById("store")
+    table.innerHTML += `
+    <tr>
+        <td>${Element.id}</td>
+        <td>${Element.name}</td>
+        <td>${Element.company}</td>
+       <td>${Element.salary}</td>
+
+        <td>${Element.address.city}</td>
+        <td>${Element.address.area}</td>
+
+    </tr>
+       `
+})
+    
+
     </script>
 </body>
 
 </html>
+
+
